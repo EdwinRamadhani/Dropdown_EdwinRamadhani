@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+	<meta charset='UTF-8'>
+	
+	<title>Dynamic Dropdown</title>
+	
+	<link rel='stylesheet' href='css/style.css'>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<script>
+		$(function() {
+		
+			$("#text-one").change(function() {
+				$("#text-two").load("textdata/" + $(this).val() + ".txt");
+			});
+			
+			$("#json-one").change(function() {
+			
+				var $dropdown = $(this);
+			
+				
+			});
+
+		});
+	</script>
+</head>
+
+<body>
+
+	<div id="page-wrap">
+	
+		<h1>Pendidikan</h1>
+
+		<select id="text-one">
+			<option selected value="base">Please Select</option>
+			<option value="pra">Pra-sekolah</option>
+			<option value="dasar">Dasar</option>
+			<option value="menengah">Menengah</option>
+			<option value="tinggi">Tinggi</option>
+		</select>
+		
+		<br />
+		
+		<select id="text-two">
+			<option>Please choose from above</option>
+		</select>
+		
+		
+	
+		
+	
+	</div>
+	
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+
+<option>    D3 Diploma</option>
+<option>    S1/D4 Sarjana</option>
+<option>    S2 Magister</option>
+<option>    S3 Doktoral</option>

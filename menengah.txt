@@ -1,0 +1,3 @@
+<option>	SMA (Sekolah Menengah Atas)</option>
+<option> 	MA (Madrasah Aliyah)</option>
+<option>    	SMK (Sekolah Menengah Kejuruan)	</option>

@@ -1,0 +1,5 @@
+
+<option>    SD (Sekolah Dasar)</option>
+<option>    MI (Madrasah Ibtidaiyah)</option>
+<option>    SMP (Sekolah Menengah Pertama)</option>
+<option>    MTs (Madrasah Tsanawiyah)</option>
